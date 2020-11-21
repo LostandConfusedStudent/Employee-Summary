@@ -6,7 +6,9 @@ This is the homework for week ten. The goal is to create a command line applicat
 
 ## Installation
 
-In the terminal, run the following command: `npm install`
+In the terminal, run the following commands:
+* `npm install`
+* `npm install inquirer`
 
 ## Usage
 
