@@ -11,7 +11,7 @@ class Manager extends Employee {
         const role = "Manager";
         return role;
     }
-    getOffice() {
+    getOfficeNumber() {
         const office = this.office;
         return office;
     }

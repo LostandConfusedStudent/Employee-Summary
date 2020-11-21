@@ -53,7 +53,7 @@ const manager = {
 
 const workerType = [{
     type: "list",
-    message: "Add a team member",
+    message: "Add a team member?",
     name: "role",
     choices: [
         "Engineer",
@@ -93,6 +93,16 @@ function makeWorkers() {
         } else {
             writeToFile("./output/team.html", render(employees));
         };
+    });
+};
+
+// Function to write the HTML file
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, err => {
+        if (err) {
+            throw err;
+        }
+        console.log("success");
     });
 };
 
