@@ -16,6 +16,8 @@ In the terminal, run the following command: `node index.js`
 
 ## Demonstration
 
+* https://drive.google.com/file/d/1cUfID_uc3TqgRi6Qa-rAWanuaXbMu8RJ/view
+
 ## Links
 
 * https://github.com/LostandConfusedStudent/Employee-Summary
